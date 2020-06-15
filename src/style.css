@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE
+}
+
+@media (max-width: 500px) {
+  body{
+    background-color: gray;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 0.5rem;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+ul {
+  list-style-type:none;
+  display: flex;
+  align-items: center;
+  
+}
+
+html {
+  font-family: 'Crimson Text', serif;
+}
+
+#header { 
+  margin: auto;
+  padding: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+#nav-bar{
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+/*   width: 100%;
+  height: 5%;
+  position: fixed; */
+
+}
+
+#header-img {
+  height: 1.5rem;
+  weight: auto;
+}
+
+.nav-link {
+  display: flex;
+}
+
+#home {
+  margin:1.5rem;
+  
+}
+
+#form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;  
+}
+
+#email {
+  
+}
+
+#submit {
+  
+  
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+#how-it-works {
+  margin: 1rem auto;    
+}
+
+#video {
+  
+}
+
+.card-container {
+  display: flex;
+  margin: 2rem;
+}
+
+.card-header {
+background-color: #DDDDDD;
+border: solid 1px;  
+}
+.card-body {
+  background-color: #EEEEEE;
+  border: solid 1px;
+}
+
+#footer {
+  margin: 1rem;
+  text-align: right; 
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  backgound-color: 
+}
+
+#footer ul{
+  display: flex;
+  align-items: center;
+}
